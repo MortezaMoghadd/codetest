@@ -12,8 +12,6 @@ dfTEST %>%
   group_by(user, date) %>%
   mutate(newLabel2 = eventlabel[which(eventlabel == "start")])
 
-
-____________________________________________________________________
 ############  The other code that is doing half of what I need:
 
 library(data.table)
